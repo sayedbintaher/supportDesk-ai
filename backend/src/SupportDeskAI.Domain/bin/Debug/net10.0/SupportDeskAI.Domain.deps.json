@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "SupportDeskAI.Domain/1.0.0": {
+        "runtime": {
+          "SupportDeskAI.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SupportDeskAI.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

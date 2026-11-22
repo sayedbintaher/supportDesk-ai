@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "xCJCFpain0s=",
+  "success": true,
+  "projectFilePath": "D:\\CodePractice\\DotNet\\SupportDeskAI\\backend\\src\\SupportDeskAI.API\\SupportDeskAI.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sayed\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.12\\microsoft.aspnetcore.openapi.10.0.12.nupkg.sha512",
+    "C:\\Users\\sayed\\.nuget\\packages\\microsoft.openapi\\2.12.0\\microsoft.openapi.2.12.0.nupkg.sha512"
+  ],
+  "logs": []
+}

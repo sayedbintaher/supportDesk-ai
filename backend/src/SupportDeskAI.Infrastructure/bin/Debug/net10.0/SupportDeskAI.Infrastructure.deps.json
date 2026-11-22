@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "SupportDeskAI.Infrastructure/1.0.0": {
+        "dependencies": {
+          "SupportDeskAI.Application": "1.0.0",
+          "SupportDeskAI.Domain": "1.0.0"
+        },
+        "runtime": {
+          "SupportDeskAI.Infrastructure.dll": {}
+        }
+      },
+      "SupportDeskAI.Application/1.0.0": {
+        "dependencies": {
+          "SupportDeskAI.Domain": "1.0.0"
+        },
+        "runtime": {
+          "SupportDeskAI.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SupportDeskAI.Domain/1.0.0": {
+        "runtime": {
+          "SupportDeskAI.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SupportDeskAI.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SupportDeskAI.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SupportDeskAI.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

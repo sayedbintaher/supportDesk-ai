@@ -1,0 +1,16 @@
+D:\CodePractice\DotNet\SupportDeskAI\backend\src\SupportDeskAI.Application\bin\Debug\net10.0\SupportDeskAI.Application.deps.json
+D:\CodePractice\DotNet\SupportDeskAI\backend\src\SupportDeskAI.Application\bin\Debug\net10.0\SupportDeskAI.Application.dll
+D:\CodePractice\DotNet\SupportDeskAI\backend\src\SupportDeskAI.Application\bin\Debug\net10.0\SupportDeskAI.Application.pdb
+D:\CodePractice\DotNet\SupportDeskAI\backend\src\SupportDeskAI.Application\obj\Debug\net10.0\SupportDeskAI.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\CodePractice\DotNet\SupportDeskAI\backend\src\SupportDeskAI.Application\obj\Debug\net10.0\SupportDeskAI.Application.AssemblyInfoInputs.cache
+D:\CodePractice\DotNet\SupportDeskAI\backend\src\SupportDeskAI.Application\obj\Debug\net10.0\SupportDeskAI.Application.AssemblyInfo.cs
+D:\CodePractice\DotNet\SupportDeskAI\backend\src\SupportDeskAI.Application\obj\Debug\net10.0\SupportDeskAI.Application.csproj.CoreCompileInputs.cache
+D:\CodePractice\DotNet\SupportDeskAI\backend\src\SupportDeskAI.Application\obj\Debug\net10.0\SupportDeskAI.Application.sourcelink.json
+D:\CodePractice\DotNet\SupportDeskAI\backend\src\SupportDeskAI.Application\obj\Debug\net10.0\SupportDeskAI.Application.dll
+D:\CodePractice\DotNet\SupportDeskAI\backend\src\SupportDeskAI.Application\obj\Debug\net10.0\refint\SupportDeskAI.Application.dll
+D:\CodePractice\DotNet\SupportDeskAI\backend\src\SupportDeskAI.Application\obj\Debug\net10.0\SupportDeskAI.Application.pdb
+D:\CodePractice\DotNet\SupportDeskAI\backend\src\SupportDeskAI.Application\obj\Debug\net10.0\ref\SupportDeskAI.Application.dll
+D:\CodePractice\DotNet\SupportDeskAI\backend\src\SupportDeskAI.Application\bin\Debug\net10.0\SupportDeskAI.Domain.dll
+D:\CodePractice\DotNet\SupportDeskAI\backend\src\SupportDeskAI.Application\bin\Debug\net10.0\SupportDeskAI.Domain.pdb
+D:\CodePractice\DotNet\SupportDeskAI\backend\src\SupportDeskAI.Application\obj\Debug\net10.0\SupportDeskAI.Application.csproj.AssemblyReference.cache
+D:\CodePractice\DotNet\SupportDeskAI\backend\src\SupportDeskAI.Application\obj\Debug\net10.0\SupportD.7DB25155.Up2Date

@@ -1,0 +1,12 @@
+D:\CodePractice\DotNet\SupportDeskAI\backend\src\SupportDeskAI.Domain\bin\Debug\net10.0\SupportDeskAI.Domain.deps.json
+D:\CodePractice\DotNet\SupportDeskAI\backend\src\SupportDeskAI.Domain\bin\Debug\net10.0\SupportDeskAI.Domain.dll
+D:\CodePractice\DotNet\SupportDeskAI\backend\src\SupportDeskAI.Domain\bin\Debug\net10.0\SupportDeskAI.Domain.pdb
+D:\CodePractice\DotNet\SupportDeskAI\backend\src\SupportDeskAI.Domain\obj\Debug\net10.0\SupportDeskAI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\CodePractice\DotNet\SupportDeskAI\backend\src\SupportDeskAI.Domain\obj\Debug\net10.0\SupportDeskAI.Domain.AssemblyInfoInputs.cache
+D:\CodePractice\DotNet\SupportDeskAI\backend\src\SupportDeskAI.Domain\obj\Debug\net10.0\SupportDeskAI.Domain.AssemblyInfo.cs
+D:\CodePractice\DotNet\SupportDeskAI\backend\src\SupportDeskAI.Domain\obj\Debug\net10.0\SupportDeskAI.Domain.csproj.CoreCompileInputs.cache
+D:\CodePractice\DotNet\SupportDeskAI\backend\src\SupportDeskAI.Domain\obj\Debug\net10.0\SupportDeskAI.Domain.sourcelink.json
+D:\CodePractice\DotNet\SupportDeskAI\backend\src\SupportDeskAI.Domain\obj\Debug\net10.0\SupportDeskAI.Domain.dll
+D:\CodePractice\DotNet\SupportDeskAI\backend\src\SupportDeskAI.Domain\obj\Debug\net10.0\refint\SupportDeskAI.Domain.dll
+D:\CodePractice\DotNet\SupportDeskAI\backend\src\SupportDeskAI.Domain\obj\Debug\net10.0\SupportDeskAI.Domain.pdb
+D:\CodePractice\DotNet\SupportDeskAI\backend\src\SupportDeskAI.Domain\obj\Debug\net10.0\ref\SupportDeskAI.Domain.dll
