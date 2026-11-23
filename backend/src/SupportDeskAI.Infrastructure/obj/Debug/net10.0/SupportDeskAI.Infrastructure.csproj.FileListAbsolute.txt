@@ -16,3 +16,5 @@ D:\CodePractice\DotNet\SupportDeskAI\backend\src\SupportDeskAI.Infrastructure\bi
 D:\CodePractice\DotNet\SupportDeskAI\backend\src\SupportDeskAI.Infrastructure\bin\Debug\net10.0\SupportDeskAI.Domain.pdb
 D:\CodePractice\DotNet\SupportDeskAI\backend\src\SupportDeskAI.Infrastructure\obj\Debug\net10.0\SupportDeskAI.Infrastructure.csproj.AssemblyReference.cache
 D:\CodePractice\DotNet\SupportDeskAI\backend\src\SupportDeskAI.Infrastructure\obj\Debug\net10.0\SupportD.FA8ABCA5.Up2Date
+D:\CodePractice\DotNet\SupportDeskAI\backend\src\SupportDeskAI.Infrastructure\bin\Debug\net10.0\SupportDeskAI.Infrastructure.runtimeconfig.json
+D:\CodePractice\DotNet\SupportDeskAI\backend\src\SupportDeskAI.Infrastructure\obj\Debug\net10.0\SupportDeskAI.Infrastructure.genruntimeconfig.cache

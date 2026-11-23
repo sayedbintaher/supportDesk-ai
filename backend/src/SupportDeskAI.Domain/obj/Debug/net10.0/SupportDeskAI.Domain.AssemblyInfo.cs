@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SupportDeskAI.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dcbc47b2b399f4efaed66db9e0996b31663a29e5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b36ab1e145f78359de40038dc48b6e00d695ab96")]
 [assembly: System.Reflection.AssemblyProductAttribute("SupportDeskAI.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SupportDeskAI.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

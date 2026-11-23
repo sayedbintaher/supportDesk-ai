@@ -1,5 +1,10 @@
-var builder = WebApplication.CreateBuilder(args);
+using SupportDeskAI.Application.Interfaces;
+using SupportDeskAI.Application.Services;
 
+
+var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddInfrastucture(builder.Configuration);
+builder.Services.AddScoped<ITicketService, TicketService>();
 // Add services to the container.
 
 builder.Services.AddControllers();
