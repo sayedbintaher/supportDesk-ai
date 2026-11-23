@@ -8,5 +8,6 @@ namespace SupportDeskAI.Application.Interfaces
         Task<IReadOnlyList<TicketResponse>> GetAllTicketsAsync(CancellationToken cancellationToken = default);
         Task<TicketResponse?> GetTicketByIdAsync(Guid id, CancellationToken cancellationToken = default);
         Task<bool> UpdateTicketPriorityAsync(Guid ticketId, UpdateTicketPriorityRequest request, Guid updatedBy, CancellationToken cancellationToken = default);
+        Task<bool> UpdateTicketStatusAsync(Guid ticketId, UpdateTicketStatusRequest request, Guid updatedBy, CancellationToken cancellationToken = default);
     }
 }

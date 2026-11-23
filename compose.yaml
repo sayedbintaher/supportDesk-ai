@@ -1,0 +1,26 @@
+
+services:
+  postgres:
+    image: postgres:17
+    container_name: supportdesk-postgres
+    restart: unless-stopped
+
+    environment:
+      POSTGRES_DB: supportdesk_ai
+      POSTGRES_USER: supportdesk
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+
+    ports:
+      - "127.0.0.1:5433:5432"
+
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U supportdesk -d supportdesk_ai"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres_data:

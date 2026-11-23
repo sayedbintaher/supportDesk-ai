@@ -25,14 +25,24 @@ namespace SupportDeskAI.API.Controllers
         {
             var createdBy = Guid.Parse(
             "11111111-1111-1111-1111-111111111111");
-
-            var ticketId = await _ticketService.CreateTicketAsync(request, createdBy, cancellationToken);
-
-            return StatusCode(StatusCodes.Status201Created, new
+            try
             {
-                Id = ticketId,
-                Message = "Ticket created successfully."
-            });
+                var ticketId = await _ticketService.CreateTicketAsync(request, createdBy, cancellationToken);
+
+                return StatusCode(StatusCodes.Status201Created, new
+                {
+                    Id = ticketId,
+                    Message = "Ticket created successfully."
+                });
+            }
+            catch(ArgumentException ex)
+            {
+                return BadRequest( new
+                {
+                    Message = ex.Message
+                });
+            }
+
         }
 
         [HttpGet]
@@ -63,14 +73,46 @@ namespace SupportDeskAI.API.Controllers
 
             var updated = await _ticketService.UpdateTicketPriorityAsync(id, request, updatedby, cancellationToken);
 
-            if(!updated)
+            if (!updated)
             {
                 return NotFound(new
                 {
-                    Message="Ticket not found"
+                    Message = "Ticket not found"
                 });
             }
             return NoContent();
+        }
+        [HttpPatch("{id:guid}/status")]
+        public async Task<IActionResult> UpdateTicketStatus(Guid id, [FromBody] UpdateTicketStatusRequest request, CancellationToken cancellationToken)
+        {
+            var updatedBy = Guid.Parse("11111111-1111-1111-1111-111111111111");
+            try
+            {
+                var updated = await _ticketService.UpdateTicketStatusAsync(id, request, updatedBy, cancellationToken);
+
+                if (!updated)
+                {
+                    return NotFound(new
+                    {
+                        Message = "Ticket Not Found."
+                    });
+                }
+                return NoContent();
+            }
+            catch (ArgumentException ex)
+            {
+                return BadRequest(new
+                {
+                    Message = ex.Message
+                });
+            }
+            catch (InvalidOperationException ex)
+            {
+                return BadRequest(new
+                {
+                    Message = ex.Message
+                });
+            }
         }
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SupportDeskAI.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b36ab1e145f78359de40038dc48b6e00d695ab96")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5474f6ed25fa0aac653854f7f9c34ffd57f70af")]
 [assembly: System.Reflection.AssemblyProductAttribute("SupportDeskAI.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SupportDeskAI.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

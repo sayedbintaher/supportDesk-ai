@@ -1,6 +1,7 @@
 using SupportDeskAI.Application.DTOs;
 using SupportDeskAI.Application.Interfaces;
 using SupportDeskAI.Domain.Entities;
+using SupportDeskAI.Domain.Enums;
 
 namespace SupportDeskAI.Application.Services
 {
@@ -73,9 +74,41 @@ namespace SupportDeskAI.Application.Services
                 return false;
             }
 
-            ticket.ChangePriority(request.Priority, updatedBy);
+            ticket.ChangePriority(request.Priority!.Value, updatedBy);
 
             await _ticketRepository.UpdateAsync(ticket, cancellationToken);
+            return true;
+        }
+        public async Task<bool> UpdateTicketStatusAsync(Guid ticketId, UpdateTicketStatusRequest request, Guid updatedBy, CancellationToken cancellationToken = default)
+        {
+            ArgumentNullException.ThrowIfNull(request);
+
+            var ticket = await _ticketRepository.GetByIdAsync(ticketId, cancellationToken);
+
+            if (ticket is null)
+            {
+                return false;
+            }
+            switch(request.Status)
+            {
+                case TicketStatus.InProgress:
+                    ticket.StartProgress(updatedBy);
+                    break;
+                
+                case TicketStatus.Resolved:
+                    ticket.Resolve(updatedBy);
+                    break;
+                
+                case TicketStatus.Closed:
+                    ticket.Close(updatedBy);
+                    break;
+                
+                default:
+                    throw new ArgumentException("Invalid or unsupported ticket status.");          
+            }
+
+            await _ticketRepository.UpdateAsync(ticket, cancellationToken);
+
             return true;
         }
     }
